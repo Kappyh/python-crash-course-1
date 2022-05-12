@@ -13,7 +13,7 @@ for dimension in dimensions:
     print(dimension)
 
 
-# Exemples
+# Examples
 
 # 4.13 Buffet
 foods = ('hot dog', 'barbecue', 'pastel', 'feijoada')
