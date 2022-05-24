@@ -37,3 +37,29 @@ if user not in banned_users:
 # Boolean expression
 game_active = True
 can_edit = False
+
+# if-else
+age = 17
+if age >=18:
+    print('You can vote')
+else:
+    print('You can not vote')
+
+# if-elif-else
+age = 12
+if age < 4:
+    print('Your admission cost is $10')
+elif age < 18:
+    print('Your admission cost is $25.')
+else:
+    print('Your admission cost is $40')
+
+# testing multiple coonditions
+
+request_topping_2 = ['mushrooms', 'extra cheese']
+if 'mushrooms' in request_topping_2:
+    print('Adding mushrooms.')
+if 'pepperoni' in request_topping_2:
+    print('Adding pepperoni.')
+if 'extra cheese' in request_topping_2:
+    print('Adding extra cheese.')
